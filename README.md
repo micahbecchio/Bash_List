@@ -1,4 +1,4 @@
-![Bash_List Banner Image](static/banner_bash_list.png)
+![Bash_List Banner Image](static/banner_bash_list.jpg)
 
 # Quick Terminal-bound To-Do List
 
