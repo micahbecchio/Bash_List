@@ -3,8 +3,8 @@
 <br>
 A command-line to-do list manager for quick and easy task tracking directly within your terminal.
 
-<br>
-
+<p>
+<p>
 <div align="center">
     <img src="static/bash_list_demo.gif" alt="Bash_List demo gif">
 </div>
