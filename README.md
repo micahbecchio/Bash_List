@@ -24,10 +24,8 @@ To get started, clone the repository and run the script:
 ```bash
 git clone https://github.com/micahbecchio/Bash_List.git
 cd Bash_List
-./main.sh alias # Will auto-create alias 'list', to call from any pwd.
+./main.sh alias # Will auto-create alias 'list', available to call from anywhere.
 ```
-
-<blockquote> *Note: The alias has been written to source /.bash_profile </blockquote>
 <br>
 Available commands:
 
