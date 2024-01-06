@@ -29,6 +29,7 @@ cd Bash_List
 
 Available commands:
 
+- `./main.sh alias` - Will create alias 'list', (note: ./bash_profile), therein:
 - `list list` - List all to-do items.
 - `list add "Your task here"` - Add a new item.
 - `list remove [item-number]` - Remove an item.
