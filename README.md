@@ -1,4 +1,4 @@
-![Bash_List Banner Image](static/banner.png)
+![Bash_List Banner Image](static/banner_bash_list.png)
 
 # Quick Terminal-bound To-Do List
 
@@ -20,17 +20,17 @@ To get started, clone the repository and run the script:
 
 ```bash
 git clone https://github.com/micahbecchio/Bash_List.git
-cd your-repo-name
-./main.sh
+cd Bash_List
+./main.sh alias # to create a hard alias "list". Otherwise, use "./main.sh
 ```
 
 Available commands:
 
-- `./main.sh list` - List all to-do items.
-- `./main.sh add "Your task here"` - Add a new item.
-- `./main.sh remove [item-number]` - Remove an item.
-- `./main.sh done [item-number]` - Mark an item as done.
-- `./main.sh clear` - Delete all items from the list.
+- `list list` - List all to-do items.
+- `list add "Your task here"` - Add a new item.
+- `list remove [item-number]` - Remove an item.
+- `list done [item-number]` - Mark an item as done.
+- `list clear` - Delete all items from the list.
 
 ## Dependencies
 
