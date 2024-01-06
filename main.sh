@@ -64,8 +64,18 @@ function list_alias(){
     echo 'Call script with: "list"'
     }
 
+function help() {
+    echo "Usage: bash main.sh [option] [argument]"
+    echo "Options:"
+    echo "  list: list all items"
+    echo "  add: add item to list"
+    echo "  remove: remove item from list"
+    echo "  done: mark item as done"
+    echo "  clear: delete list"
+    echo "  alias: create alias (hardcoded: "list") for script"}
+
 #-- 3.) CHECK IF FILE EXISTS ------------
-# if does not (!) file (-f) exist, then create it
+# if does not (!) file (-f) exist, then create it.
 
 if [ ! -f "$FILE" ]; then
     touch "$FILE"
@@ -94,6 +104,6 @@ case $1 in
         source ~/.bash_profile 
         ;;
     *) # default response
-        echo "Sorry B0SS, that's not an option. (▀̿Ĺ̯▀̿ ̿)"
+        help
         ;;
 esac
