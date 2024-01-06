@@ -1,7 +1,6 @@
 ![Bash_List Banner Image](static/banner_bash_list.jpg)
 
-# Quick Terminal-bound To-Do List
-
+<br>
 A command-line to-do list manager for quick and easy task tracking directly within your terminal.
 
 ![Bash_List demo gif](static/bash_list_demo.gif)
