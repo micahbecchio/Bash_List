@@ -1,9 +1,11 @@
 ![Bash_List Banner Image](static/banner_bash_list.jpg)
 
-<br>
+
 A command-line to-do list manager for quick and easy task tracking directly within your terminal.
 
-![Bash_List demo gif](static/bash_list_demo.gif)
+<div align="center">
+    <img src="static/bash_list_demo.gif" alt="Bash_List demo gif">
+</div>
 
 ## Features
 
