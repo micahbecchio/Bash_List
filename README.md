@@ -24,12 +24,12 @@ To get started, clone the repository and run the script:
 ```bash
 git clone https://github.com/micahbecchio/Bash_List.git
 cd Bash_List
-./main.sh alias # to create a hard alias "list". Otherwise, use "./main.sh"
+./main.sh alias # Will auto-create alias 'list', to call from any pwd.
 ```
+<small> Note: The alias has been written to source ./bash_profile </small>
 
 Available commands:
 
-- `./main.sh alias` - Will create alias 'list', (note: ./bash_profile), therein:
 - `list list` - List all to-do items.
 - `list add "Your task here"` - Add a new item.
 - `list remove [item-number]` - Remove an item.
