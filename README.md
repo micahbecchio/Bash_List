@@ -29,6 +29,7 @@ cd Bash_List
 <br>
 Available commands:
 
+- `list` - Display all available commands.
 - `list list` - List all to-do items.
 - `list add "Your task here"` - Add a new item.
 - `list remove [item-number]` - Remove an item.

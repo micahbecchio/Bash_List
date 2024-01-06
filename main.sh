@@ -72,7 +72,8 @@ function help() {
     echo "  remove: remove item from list"
     echo "  done: mark item as done"
     echo "  clear: delete list"
-    echo "  alias: create alias (hardcoded: "list") for script"}
+    echo "  alias: create alias (hardcoded: \"list\") for script"}
+}
 
 #-- 3.) CHECK IF FILE EXISTS ------------
 # if does not (!) file (-f) exist, then create it.
