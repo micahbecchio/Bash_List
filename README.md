@@ -1,8 +1,8 @@
 ![Bash_List Banner Image](static/banner_bash_list.jpg)
 
-
+<br>
 A command-line to-do list manager for quick and easy task tracking directly within your terminal.
-
+<br>
 <div align="center">
     <img src="static/bash_list_demo.gif" alt="Bash_List demo gif">
 </div>
@@ -22,7 +22,7 @@ To get started, clone the repository and run the script:
 ```bash
 git clone https://github.com/micahbecchio/Bash_List.git
 cd Bash_List
-./main.sh alias # to create a hard alias "list". Otherwise, use "./main.sh
+./main.sh alias # to create a hard alias "list". Otherwise, use "./main.sh"
 ```
 
 Available commands:
