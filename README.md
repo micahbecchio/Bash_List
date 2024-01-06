@@ -26,7 +26,7 @@ git clone https://github.com/micahbecchio/Bash_List.git
 cd Bash_List
 ./main.sh alias # Will auto-create alias 'list', to call from any pwd.
 ```
-<small> Note: The alias has been written to source ./bash_profile </small>
+<blockquote> *Note: The alias has been written to source ./bash_profile </blockquote>
 
 Available commands:
 
